@@ -74,7 +74,7 @@ text-align: center;
 }
 .section-tittle{
 font-size: 28.16px;
-font-weight: bold;
+font-weight: 800;
 color: rgb(13, 19, 33);
 text-align: center;
 
@@ -105,7 +105,7 @@ main{
 
 background: rgba(13, 19, 33, 0.02);
     padding:70.4px 85.36px ;
-    text-align: center;
+    
     margin-top: 65.12px;
 }
 .reason-subtittles{
@@ -165,4 +165,148 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     margin: 0px 20px;
     gap: 14.08px;
     justify-content: center;
+}
+.My-inspiration{
+text-align: center;
+
+margin-top: 65.12px;
+gap: 21.12px;
+}
+.video{
+
+margin-top: 77.74px;
+    height: 540.32px;
+
+padding: 28.16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
+.My-target{
+margin-top: 132.88px;
+
+}
+
+    
+
+.text-align{
+    text-align: center;
+}
+.card-1{
+padding: 35.2px;
+ border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+
+
+
+}
+.card-2{
+padding: 35.2px;
+ border-radius: 16px;
+background:rgba(0, 76, 232, 0.05)
+
+
+
+}
+.card-3{
+padding: 35.2px;
+ border-radius: 16px;
+background:rgba(255, 223, 0, 0.05)
+
+
+
+}
+.l-more{
+
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14.08px;
+font-weight: 700;
+line-height: 16.72px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.cards{
+    margin-top: 42.24px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.Contact{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.tex-type-white{
+    color: rgb(255, 255, 255);
+}
+.container{
+    
+    
+    background-image:linear-gradient(180.00deg, rgb(0, 0, 0.2) -19.5%,rgba(16, 16, 16, 0) 100%),url(assets/handshake.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+    background-size: cover;
+    height: 275px;
+    max-width: 1003.2px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 43.12px;
+    padding: 56.32px  42.24px 56.32px 42.24px;
+}
+input[type="text"]{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+width: 467.2px;
+height: 50px;
+}
+input[placeholder]{
+    
+    color: rgba(13, 19, 33, 0.4);
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+input[type="submit"]
+{
+    padding: 13px 16px 13px 16px;
+    flex: none;
+    border-radius: 8px;
+    border: none;
+
+background: rgb(255, 255, 255);
+width: 105.6px;
+height: 50px;
+
+}
+input[value]{
+    color: rgb(13, 19, 33);
+    
+
+    font-size: 17.6px;
+    font-weight: 600;
+    line-height: 22.28px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+
+
+}
+.last{
+    margin-top: 21.12px;
 }
